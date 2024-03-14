@@ -18,3 +18,6 @@ draw.paths=(ctx,paths,color="black")=>{
       draw.path(ctx,path,color);
    }
 }
+
+
+export default draw;

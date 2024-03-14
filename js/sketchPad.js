@@ -1,3 +1,5 @@
+import draw from "./draw.js";
+
 class SketchPad{
    constructor(container,size=400){
       this.canvas=document.createElement("canvas");
@@ -82,3 +84,5 @@ class SketchPad{
       ];
    }
 }
+
+export default SketchPad;
